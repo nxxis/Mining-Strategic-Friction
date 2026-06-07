@@ -1,0 +1,45 @@
+# Project requirements for DOC-ICDM analysis and reproducibility
+# Detected environment packages are pinned where available; other commonly
+# used analysis libraries are listed with minimum versions.
+
+# Core environment / notebook
+nbformat==5.10.4
+jupyter-core==5.9.1
+
+# JSON/schema utilities
+jsonschema==4.26.0
+fastjsonschema==2.21.2
+
+# Utilities
+attrs==26.1.0
+platformdirs==4.10.0
+rpds-py==2026.5.1
+traitlets==5.15.1
+
+# Scientific stack
+numpy>=1.25.0
+pandas>=2.2.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# Embeddings / sentence encoders
+sentence-transformers>=2.2.2
+transformers>=4.35.0
+torch>=2.2.0
+
+# Clustering and pattern mining
+hdbscan>=0.8.30
+prefixspan>=1.0.2
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.13.0
+plotly>=5.15.0
+
+# Misc
+tqdm>=4.65.0
+joblib>=1.3.0
+
+# Optional / provider SDKs (uncomment and configure API keys as needed)
+# openai>=1.0.0
+# anthropic>=0.4.0
